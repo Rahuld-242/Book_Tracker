@@ -1,5 +1,5 @@
 __pycache__/
 *.pyc
 .env
-# Local project specifications
-/docs/local/
+# Local documentation
+/docs/
