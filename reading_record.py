@@ -52,6 +52,9 @@ class ReadingRecord:
             self.finish_date=finish_date   
         self.status="Finished"
         
-        
+    def mark_dnf(self):
+        if self.status!="Currently Reading":
+            raise RuntimeError("Book should be in Currently Reading")
+        self.status = "DNF"
         
         
